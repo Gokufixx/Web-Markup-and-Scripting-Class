@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>WEB-115 Final Project</title>
+    <script src="projectJS.js" defer></script>
+    <style>
+    </style>
+    <link rel="stylesheet" href="projectCSS.css">
+</head>
+<body>
+    <div class="banner">
+        <img src="banner.jpg">
+    </div>
+    <div>
+        <section class="center">
+            <p>Once you fill in your calender use the Create Mealplan to generate a Mealplan calender</p>
+            <p>Use the Clear Button to reset the Mealplan to easily create a new one</p>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <label for="goal">Goal of the Week</label>
+            <input type="text" id="goal">
+        </section>
+    </div>
+    <div class="seperate">
+        <table class="calender">
+            <tr>
+                <th></th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thrusday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr>
+                <th>Breakfast</th>
+                <td><input type="text" id="subreakfast"></td>
+                <td><input type="text" id="mbreakfast"></td>
+                <td><input type="text" id="tbreakfast"></td>
+                <td><input type="text" id="wbreakfast"></td>
+                <td><input type="text" id="thbreakfast"></td>
+                <td><input type="text" id="fbreakfast"></td>
+                <td><input type="text" id="sabreakfast"></td>
+            </tr>
+            <tr>
+                <th>Snack 1</th>
+                <td><input type="text" id="susnack1"></td>
+                <td><input type="text" id="msnack1"></td>
+                <td><input type="text" id="tsnack1"></td>
+                <td><input type="text" id="wsnack1"></td>
+                <td><input type="text" id="thsnack1"></td>
+                <td><input type="text" id="fsnack1"></td>
+                <td><input type="text" id="sasnack1"></td>
+            </tr>
+            <tr>
+                <th>Lunch</th>
+                <td><input type="text" id="sulunch"></td>
+                <td><input type="text" id="mlunch"></td>
+                <td><input type="text" id="tlunch"></td>
+                <td><input type="text" id="wlunch"></td>
+                <td><input type="text" id="thlunch"></td>
+                <td><input type="text" id="flunch"></td>
+                <td><input type="text" id="salunch"></td>
+            </tr>
+            <tr>
+                <th>Snack 2</th>
+                <td><input type="text" id="susnack2"></td>
+                <td><input type="text" id="msnack2"></td>
+                <td><input type="text" id="tsnack2"></td>
+                <td><input type="text" id="wsnack2"></td>
+                <td><input type="text" id="thsnack2"></td>
+                <td><input type="text" id="fsnack2"></td>
+                <td><input type="text" id="sasnack2"></td>
+            </tr>
+            <tr>
+                <th>Dinner</th>
+                <td><input type="text" id="sudinner"></td>
+                <td><input type="text" id="mdinner"></td>
+                <td><input type="text" id="tdinner"></td>
+                <td><input type="text" id="wdinner"></td>
+                <td><input type="text" id="thdinner"></td>
+                <td><input type="text" id="fdinner"></td>
+                <td><input type="text" id="sadinner"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input type="button" id="upload" value="Create Meal Plan"></td>
+                <td></td>
+                <td><input type="button" id="clear" value="Clear"></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        
+    </div>
+</body>
+</html>
